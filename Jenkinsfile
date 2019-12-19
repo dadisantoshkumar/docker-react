@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Cloning'){
             steps{
-                git 'https://github.com/incture/AGCO_APT.git'
+                git 'https://github.com/dadisantoshkumar/docker-react.git'
            }
         }
     stage('Build'){
